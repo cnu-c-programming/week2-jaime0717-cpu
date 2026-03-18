@@ -16,7 +16,13 @@ int main()
         }
     } while (n - 1 > r);
 
-    printf("true");
-
+    if (n = 1)
+    {
+        printf("false");
+    }
+    else
+    {
+        printf("true");
+    }
     return 0;
 }
